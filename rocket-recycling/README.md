@@ -1,10 +1,5 @@
 # Rocket-recycling with Reinforcement Learning
 
-Developed by: [Zhengxia Zou, Ph.D.](https://zhengxiazou.github.io/)
-
-
-
-
 ## One-min demo video
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gsIiniJMr3E/0.jpg)](https://www.youtube.com/watch?v=gsIiniJMr3E)
@@ -13,11 +8,7 @@ Developed by: [Zhengxia Zou, Ph.D.](https://zhengxiazou.github.io/)
 
 ## About this project
 
-As a big fan of SpaceX, I always dreamed of having my own rockets. Recently, I worked on an interesting question that whether we can "build" a virtual rocket and address a challenging problem - rocket recycling, with simple reinforcement learning. 
-
-I tried on two tasks: **hovering** and **landing**. The rocket is simplified into a rigid body on a 2D plane. I considered the basic cylinder dynamics model and assumed the air resistance is proportional to the velocity. A thrust-vectoring engine is installed at the bottom of the rocket. This engine provides adjustable thrust values (0.2g, 1.0g, and 2.0g) with different directions. An angular velocity constraint is added to the nozzle with a max-rotating speed of 30 degrees/second.
-
-With the above basic settings, the action space is defined as a collection of the discrete control signals of the engine, including the thrust acceleration and the angular velocity of the nozzle. The state-space consists of the rocket position, speed, angle, angle velocity, nozzle angle, and the simulation time.
+Driven by my admiration for SpaceX and a lifelong rocket fascination, I've embarked on an odyssey uniting virtual rocketry with cutting-edge innovation. Can the fusion of virtual rocket crafting and reinforcement learning decode rocket recycling? With dreams of my own rocket venture, I'm sculpting intricate digital rocket avatars, honing designs free from physical restraints. This journey extends to the heart of space exploration: recycling rockets for sustainability. By applying reinforcement learning, I aim to empower virtual rockets to autonomously return to Earth, reshaping rocket refurbishment
 
 ![](./gallery/config.jpg)
 
@@ -26,9 +17,6 @@ With the above basic settings, the action space is defined as a collection of th
 For the landing task, I followed the basic parameters of the Starship SN10 belly flop maneuver. The initial speed is set to -50m/s. The rocket orientation is set to 90 degrees (horizontally). The landing burn height is set to 500 meters above the ground. 
 
 ![](./gallery/timelapse.jpg)
-
-Image credit https://twitter.com/thejackbeyer/status/1367364251233497095
-
 
 
 The reward functions are quite straightforward.
@@ -102,19 +90,7 @@ if __name__ == '__main__':
 
 
 
-## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">  Rocket-recycling</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www-personal.umich.edu/~zzhengxi/">Zhengxia Zou</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
-
-
-
-## Citation
-
-``````
-@misc{zou2021rocket,
-  author = {Zhengxia Zou},
-  title = {Rocket-recycling with Reinforcement Learning},
-  year = {2021},
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/jiupinjia/rocket-recycling}}
