@@ -1,11 +1,5 @@
 # Reusable Rocket Simulation
 
-## One-min demo video
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gsIiniJMr3E/0.jpg)](https://www.youtube.com/watch?v=gsIiniJMr3E)
-
-
-
 ## About this project
 
 Driven by my admiration for SpaceX and a lifelong fascination with rocketry, I've embarked on an odyssey uniting virtual rocketry with cutting-edge innovation. Can the fusion of virtual rocket crafting and reinforcement learning decode rocket recycling? With dreams of my own rocket venture, I'm sculpting intricate digital rocket avatars, honing designs free from physical restraints. This journey extends to the heart of space exploration: recycling rockets for sustainability. By applying reinforcement learning, I aim to empower virtual rockets to autonomously return to Earth, reshaping rocket refurbishment
