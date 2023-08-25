@@ -28,21 +28,34 @@ For the landing task: we look at the Speed and angle at the moment of contact wi
 
 I implement the above environment and train a policy-based agent (actor-critic) to solve this problem. The episode reward finally converges very well after over 20000 training episodes.
 
-| Fully trained agent (task: hovering) |        Reward over number of episodes        |
-| :----------------------------------: | :------------------------------------------: |
-|       ![](./gallery/h_20k.gif)       | ![](./gallery/hovering_rewards_00022301.jpg) |
+## Fully trained agent (task: hovering) 
 
 
-| Fully trained agent (task: landing) |        Reward over number of episodes        |
-| :----------------------------------: | :------------------------------------------: |
-|       ![](./gallery/l_11k.gif)       | ![](./gallery/landing_rewards_00011201.jpg) |
+![h_20k](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/fc4fb698-16e2-48e3-89d6-71335e04ef18)
 
+
+
+
+  ## Landing Rewards
+
+
+![landing_rewards_00011201](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/309c74ad-a4ee-4e2a-b274-59be2585b397)
+
+
+##  Fully trained agent (task: landing) |              |
+ :-![l_11k](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/6f4a0255-861b-4cd0-bd24-12d1fbdc6327)
+---------------------------------: | :------------------------------------: |
+
+##  Reward over number of episodes 
+
+![hovering_rewards_00022301](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/24201462-85d0-403a-bc01-cd543378036c)
 
 Despite the simple setting of the environment and the reward, the agent has learned the belly flop maneuver nicely. The following animation shows a comparison between the real SN10 and a fake one learned from reinforcement learning.
 
-![](./gallery/belly_flop.gif)
 
 
+
+![belly_flop](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/49a9c793-169b-4f4c-a3f9-0980468b9759)
 
 
 ## Developing the "Rocket-recycling with Reinforcement Learning" project involves several steps that can be outlined as follows:
@@ -98,6 +111,10 @@ Share the project, including the code, documentation, and demo video, on platfor
 Explore more advanced reinforcement learning algorithms, such as Deep Deterministic Policy Gradients (DDPG) or Trust Region Policy Optimization (TRPO), to improve the agent's learning efficiency.
 
 ## courtesy:Chatgpt )
+
+## configurations :
+![config](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/5a4b8eab-e79a-4b6d-ad47-ea952d40cc87)
+
 
 ## Usage
 
