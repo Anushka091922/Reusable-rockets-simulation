@@ -1,4 +1,4 @@
-# Reusable Rockets Simulation
+# Reusable Rocket Simulation
 
 ## One-min demo video
 
@@ -8,7 +8,7 @@
 
 ## About this project
 
-Driven by my admiration for SpaceX and a lifelong rocket fascination, I've embarked on an odyssey uniting virtual rocketry with cutting-edge innovation. Can the fusion of virtual rocket crafting and reinforcement learning decode rocket recycling? With dreams of my own rocket venture, I'm sculpting intricate digital rocket avatars, honing designs free from physical restraints. This journey extends to the heart of space exploration: recycling rockets for sustainability. By applying reinforcement learning, I aim to empower virtual rockets to autonomously return to Earth, reshaping rocket refurbishment
+Driven by my admiration for SpaceX and a lifelong fascination with rocketry, I've embarked on an odyssey uniting virtual rocketry with cutting-edge innovation. Can the fusion of virtual rocket crafting and reinforcement learning decode rocket recycling? With dreams of my own rocket venture, I'm sculpting intricate digital rocket avatars, honing designs free from physical restraints. This journey extends to the heart of space exploration: recycling rockets for sustainability. By applying reinforcement learning, I aim to empower virtual rockets to autonomously return to Earth, reshaping rocket refurbishment
 
 ![](./gallery/config.jpg)
 
@@ -92,7 +92,7 @@ Implement functionality to save the trained agent's model checkpoints for future
 Develop a loading mechanism to reload trained models for testing and evaluation.
 ### Testing and Evaluation:
 
-Evaluate the trained agent on various scenarios, such as different initial conditions and environments.
+Evaluate the trained agent in various scenarios, such as different initial conditions and environments.
 Compare the agent's behavior with real-world rocket maneuvers.
 ### Documentation:
 
@@ -114,6 +114,10 @@ Explore more advanced reinforcement learning algorithms, such as Deep Determinis
 
 ## configurations :
 ![config](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/5a4b8eab-e79a-4b6d-ad47-ea952d40cc87)
+
+## Timelapse:
+![timelapse](https://github.com/Anushka091922/Reusable-rockets-simulation/assets/114327511/cf13dff2-16dd-4a3a-82f3-39eedfb674a1)
+
 
 
 ## Usage
