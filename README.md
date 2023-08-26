@@ -1,5 +1,5 @@
 # Reusable Rocket Simulation
-This Project is inspired by SpaceX's reusable rockets, and I have tried to build something like that. I have not developed this project from scratch. Inspired by the YouTube video I had watched, I decided to build it and also add some extra features to the GUI of the Project.In the simulation environment the rocket tries to balance itself and return back to the designated point during the descent.
+This Project is inspired by SpaceX's reusable rockets, and I have tried to build something like that. Inspired by the YouTube video I had watched, I decided to build it and also add some extra features to the GUI of the Project. In the simulation environment, the rocket tries to balance itself and return to the designated point during the descent.
 
 ## About this project
 
