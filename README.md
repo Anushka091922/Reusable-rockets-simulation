@@ -1,4 +1,5 @@
 # Reusable Rocket Simulation
+This Project is inspired by SpaceX's reusable rockets, and I have tried to build something like that. I have not developed this project from scratch. Inspired by the YouTube video I had watched, I decided to build it and also add some extra features to the GUI of the Project.In the simulation environment the rocket tries to balance itself and return back to the designated point during the descent.
 
 ## About this project
 
@@ -8,7 +9,7 @@ Driven by my admiration for SpaceX and a lifelong fascination with rocketry, I'v
 
 
 
-For the landing task, I followed the basic parameters of the Starship SN10 belly flop maneuver. The initial speed is set to -50m/s. The rocket orientation is set to 90 degrees (horizontally). The landing burn height is set to 500 meters above the ground. 
+For the landing task, I followed the basic parameters of the Starship SN10 belly-flop maneuver. The initial speed is set to -50m/s. The rocket orientation is set to 90 degrees (horizontally). The landing burn height is set to 500 meters above the ground. 
 
 ![](./gallery/timelapse.jpg)
 
