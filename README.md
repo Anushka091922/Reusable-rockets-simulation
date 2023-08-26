@@ -152,9 +152,14 @@ if __name__ == '__main__':
             break
 ```
 
+### Referrences:
+1) https://en.wikipedia.org/wiki/SpaceX_reusable_launch_system_development_program
+
+2) https://www.researchgate.net/publication/330207086_Reusable_Launch_Space_Systems
+
+3) https://www.spacex.com/media/falcon-users-guide-2021-09.pdf
+
+4) https://ntrs.nasa.gov/api/citations/20000070419/downloads/20000070419.pdf
 
 
 
-
-}
-``````
